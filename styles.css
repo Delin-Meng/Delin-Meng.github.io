@@ -90,6 +90,35 @@ h1 {
   font-size: clamp(17px, 2.2vw, 22px);
 }
 
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 24px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 15px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 750;
+}
+
+.button-primary {
+  border: 1px solid #254f88;
+  background: var(--accent);
+  color: #ffffff;
+  box-shadow: 0 10px 22px rgba(49, 95, 159, 0.18);
+}
+
+.button-primary:hover {
+  background: #254f88;
+}
+
 .profile-card,
 .panel {
   border: 1px solid var(--line);
